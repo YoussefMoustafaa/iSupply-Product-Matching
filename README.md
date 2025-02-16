@@ -4,21 +4,21 @@ This project develops an advanced product matching system for a pharmaceutical m
 Features
 
 ### Text Normalization & Preprocessing:
-    Removal of Arabic diacritics and standardization of characters.
-    Custom normalization for pharmaceutical terms (e.g., converting various dosage forms to a standard form).
-    Tokenization and lemmatization using the Qalsadi library.
+Removal of Arabic diacritics and standardization of characters.
+Custom normalization for pharmaceutical terms (e.g., converting various dosage forms to a standard form).
+Tokenization and lemmatization using the Qalsadi library.
 
 ### Deep Learning Model:
-    An improved RNN model leveraging Bidirectional LSTM and GRU layers.
-    Use of embedding layers to learn text representations.
-    Integration of price as an additional feature (after scaling).
+An improved RNN model leveraging Bidirectional LSTM and GRU layers.
+Use of embedding layers to learn text representations.
+Integration of price as an additional feature (after scaling).
 
 ## Dataset
 
 The dataset is provided as an Excel file with two main sheets:
 
-    Master File: Contains the official product names and related details.
-    Dataset: Contains seller item names along with pricing and SKU details.
+Master File: Contains the official product names and related details.
+Dataset: Contains seller item names along with pricing and SKU details.
 
 ## Installation
 ### Prerequisites
@@ -56,11 +56,7 @@ An improved RNN model is built using Bidirectional LSTM and GRU layers. The mode
 
 The model is evaluated on a hold-out test set, and accuracy is printed as the performance metric.
 
-Run the main script as follows:
-
-```
-python product_matching.py
-```
+Open the notebook and press Run All
 
 ## Code Structure
 
